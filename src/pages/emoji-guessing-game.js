@@ -99,7 +99,7 @@ const EmojiGuessingGame = () => {
       )}
 
       {/* Emoji Buttons */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(8, 1fr)', gap: '10px', marginBottom: '20px' }}>
+      <div style={{ display: 'none', gridTemplateColumns: 'repeat(8, 1fr)', gap: '10px', marginBottom: '20px' }}>
         {emojiData.map((data, index) => (
           <button
             key={index}
